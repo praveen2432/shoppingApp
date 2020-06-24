@@ -1,0 +1,181 @@
+You can add global styles to this file, and also import other style files
+/* Add application styles & imports to this file! */
+
+.product-cart {  
+    position: fixed;
+    right: 1em;
+    top: 73px;
+    width: 350px;
+    background-color: #FFF;
+    border: 1px solid #CCC;
+    box-shadow: 0 5px 15px rgba(0,0,0, 0.2);
+  }
+
+  .mb-4, .my-4 {
+    margin-bottom: 3    .5rem!important;
+}
+  
+.btn-group-sm>.btn, .btn-sm {
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  margin-bottom: 18px;
+  border-radius: 3px;
+}
+
+  .product-cart ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .product-cart li {
+    display: flex;
+    flex-flow: row;
+    padding: 1em;
+    border-bottom: 1px solid #CCC;
+    font-size: 14px;
+  }
+
+  img {
+    vertical-align: middle;
+    /* margin-left: 1px; */
+    margin-left: 20px;
+}
+
+  .card{
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    margin-bottom: 39px;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 1.50rem;
+  }
+
+  .navbar {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+    border-radius: 0px;
+}
+
+.navbar-dark .navbar-brand {
+  color: #fff;
+}
+
+.align-items-center {
+  -ms-flex-align: center!important;
+  align-items: -end;
+}
+
+.d-flex {
+  display: -ms-flexbox!important;
+  display: flex!important;
+}
+
+.mr-2, .mx-2 {
+  margin-right: .5rem!important;
+}
+
+.navbar-brand {
+  float: left;
+  height: 50px;
+  padding: 15px 15px;
+  font-size: 24px;
+  line-height: 20px;
+} 
+
+p {
+  margin: 0 0 10px;
+  margin-left: 34px;
+  font-weight: 600;
+}
+
+  .bg-dark {
+    background-color: #343a40!important;
+}
+  
+  .product-cart img {
+    height: 50px;
+    width: auto;
+    margin-right: 1em;
+  }
+  
+  .product-list__item h4 {
+    font-size: 16px;
+  }
+
+  h4, h4 {
+    font-size: 18px;
+    margin-left: 35px;
+    
+}
+  
+  .product-list__image {
+    padding: 1em;
+    height: 250px;
+  }
+  
+  .product-list__image img {
+    max-width: 100%;
+  }
+  
+  .cart-count {
+    color: #FFF;
+    position: relative;
+    margin-left: 77%;
+    margin-top: 8px;
+  }
+  .cart-count em {
+    height: 24px;
+    background-color: red;
+    font-style: normal;
+    padding: 0;
+    border-radius: 50px;
+    position: absolute;
+    top: -5px;
+    right: -14px;
+    width: 24px;
+    text-align: center;
+    line-height: 24px;
+    color: #FFF;
+    font-weight: bold;
+  }
+  
+  a.notif {
+    position: relative;
+    display: block;
+    height: 50px;
+    width: 50px;
+    background: url('http://i.imgur.com/evpC48G.png');
+    background-size: contain;
+    text-decoration: none;
+  }
+  .num {
+    position: absolute;
+    right: 11px;
+    top: 6px;
+    color: #fff;
+  }
+  
+  .cart-total {
+    padding: 1em;
+    margin: 0;
+    display: flex;
+    flex-flow: row;
+    align-items: normal;
+    justify-content: space-between;
+  }
